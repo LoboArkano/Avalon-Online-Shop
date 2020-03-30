@@ -7,7 +7,7 @@
   src: url("../fonts/Gotham_Bold.otf");
 }
 
-.gotham {
+.gotham-b {
   font-family: "Gotham-bold", Arial, Helvetica, sans-serif;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
   src: url("../fonts/Gotham_Rounded_Light.otf");
 }
 
-.gotham-r {
+.gotham-rl {
   font-family: "Gotham-round-light", Arial, Helvetica, sans-serif;
   font-style: normal;
 }
@@ -86,4 +86,73 @@
 
 /* NAVBAR */
 
+.nav-main-container {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
+.nav-main-container .nav-container {
+  width: 100%;
+  max-width: 1145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container .nav-left-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  min-width: 630px;
+}
+
+.nav-left-side .item-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.nav-left-side .nav_shop-name {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.nav-left-side .item-option,
+.nav-left-side .item-ad {
+  font-size: 14px;
+}
+
+.nav-left-side .item-ad {
+  padding: 10px;
+}
+
+.item-option_logo,
+.item-option_icon {
+  padding-right: 15px;
+}
+
+.item-option_logo {
+  font-size: 40px;
+}
+
+.nav-container .nav-right-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12%;
+  min-width: 115px;
+  padding-right: 8px;
+}
+
+.user-option .user-option_icon {
+  font-size: 12px;
+}
+
+.user-option .user-pic {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
