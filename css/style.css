@@ -56,6 +56,10 @@
   color: #d35266;
 }
 
+.white {
+  color: #fff;
+}
+
 .gray {
   color: #888;
 }
@@ -63,3 +67,23 @@
 .black {
   color: #383838;
 }
+
+.red-bg {
+  background-color: #d35266;
+}
+
+.white-bg {
+  color: #fff;
+}
+
+.gray-bg {
+  background-color: #888;
+}
+
+.black-bg {
+  background-color: #383838;
+}
+
+/* NAVBAR */
+
+
