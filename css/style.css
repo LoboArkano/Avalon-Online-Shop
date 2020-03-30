@@ -1,0 +1,65 @@
+/* GENERAL */
+
+/* Typographic & Colors */
+
+@font-face {
+  font-family: "Gotham-bold";
+  src: url("../fonts/Gotham_Bold.otf");
+}
+
+.gotham {
+  font-family: "Gotham-bold", Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham-round-light";
+  src: url("../fonts/Gotham_Rounded_Light.otf");
+}
+
+.gotham-r {
+  font-family: "Gotham-round-light", Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaN-light";
+  src: url("../fonts/HelveticaNeue_Light.ttf");
+}
+
+.helveticaN-l {
+  font-family: "HelveticaN-light", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "HelveticaN-medium";
+  src: url("../fonts/HelveticaNeue_Medium.ttf");
+}
+
+.helveticaN-m {
+  font-family: "HelveticaN-medium", Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaN-bold";
+  src: url("../fonts/HelveticaNeu_Bold.ttf");
+}
+
+.helveticaN-b {
+  font-family: "HelveticaN-bold", Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.red {
+  color: #d35266;
+}
+
+.gray {
+  color: #888;
+}
+
+.black {
+  color: #383838;
+}
