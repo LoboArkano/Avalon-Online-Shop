@@ -169,6 +169,7 @@
   text-align: center;
   padding-top: 55px;
   padding-bottom: 10px;
+
   /* background-image: url("../images/dice-d20.svg");
   background-repeat: no-repeat;
   background-position: left top;
@@ -192,7 +193,7 @@
   display: block;
 }
 
-.search-form .category,
+.search-form .category-select,
 .search-form .what,
 .search-form .where,
 .search-form .submit {
@@ -205,7 +206,7 @@
   border: 0;
 }
 
-.search-form .category {
+.search-form .category-select {
   width: 170px;
   background-image: url('../images/arrow-down.png');
   background-repeat: no-repeat;
@@ -323,3 +324,103 @@
 .icon-text .fa-cart-arrow-down {
   padding-right: 10px;
 }
+
+/* CATEGORY */
+
+main .category-container {
+  background-color: #f6f6f6;
+  width: 100%;
+  padding-bottom: 45px;
+}
+
+.category-container .category {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 60px;
+  max-width: 1000px;
+}
+
+.category-container .category:last-of-type {
+  margin-bottom: 0;
+}
+
+.category .category-title-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 860px;
+  padding: 20px 0 12px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.category-title-container .fa-journal-whills {
+  font-size: 32px;
+  padding-right: 10px;
+}
+
+.category-title-container .category-title {
+  font-size: 18px;
+}
+
+.category-title > span {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.category .category-items-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 35px;
+}
+
+.category-items-container .category_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 333px;
+  width: 40px;
+  border-top: 1px solid rgb(209, 208, 208);
+  border-right: 1px solid rgb(209, 208, 208);
+}
+
+.category-items-container .item {
+  max-width: 150px;
+  border: 1px solid rgb(209, 208, 208);
+}
+
+.item .item-img {
+  width: 100%;
+}
+
+.item .item-info {
+  padding: 5px 10px 10px 10px;
+}
+
+.item-info .item-name {
+  font-size: 15px;
+}
+
+.item-info .item-state,
+.item-info .item-location {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.item-info .item-state {
+  margin-top: 4px;
+}
+
+.item .item-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-buy .item-add {
+  border: 1px solid rgb(204, 204, 204);
+  padding: 4px;
+}
+
+/* FOOTER */
