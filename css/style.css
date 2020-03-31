@@ -1,5 +1,9 @@
 /* GENERAL */
 
+* {
+  box-sizing: border-box;
+}
+
 /* Typographic & Colors */
 
 @font-face {
@@ -156,3 +160,65 @@
   width: 30px;
   border-radius: 50%;
 }
+
+/* SEARCH */
+
+.search-container {
+  height: 295px;
+  width: 100%;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 10px;
+  /* background-image: url("../images/dice-d20.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 50% 50%;
+  filter: brightness(0) saturate(100%) invert(32%) sepia(9%) saturate(2509%) hue-rotate(301deg) brightness(95%) contrast(87%); */
+}
+
+.search-container .search_shop-name {
+  font-size: 55px;
+  margin-bottom: 5px;
+}
+
+.search-container .search_shop-slogan {
+  font-size: 15px;
+  margin-bottom: 55px;
+}
+
+.search-container .search-form {
+  margin: 0 auto;
+  font-size: 3px;
+  display: block;
+}
+
+.search-form .category,
+.search-form .what,
+.search-form .where,
+.search-form .submit {
+  height: 40px;
+  font-size: 16px;
+  font-family: "HelveticaN-medium", Arial, Helvetica, sans-serif;
+  color: #888;
+  background-color: #fff;
+  padding: 5px 30px 5px 20px;
+  border: 0;
+}
+
+.search-form .category {
+  width: 170px;
+  background-image: url('../images/arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: left 5px top 50%, 0 0;
+  background-size: 15px auto, 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.search-form .what,
+.search-form .where {
+  width: 270px;
+}
+
+/* HOT ADD */

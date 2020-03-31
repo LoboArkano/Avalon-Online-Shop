@@ -45,18 +45,19 @@
       </div>
     </nav>
     <!-- SEARCH -->
-    <div>
-      <h1 class="shop-name">ÁVALON</h1>
-      <h5 class="shop-message"></h5>
-      <form class="search" action="">
-        <select name="" id="">
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
+    <div class="search-container red-bg white">
+      <h1 class="search_shop-name gotham-b">ÁVALON</h1>
+      <h5 class="search_shop-slogan">Buying And Selling Couldn't be Simpler than this!</h5>
+      <form class="search-form" action="search.html">
+        <select class="category" name="dnd" id="category">
+          <option value="" disabled selected hidden>All Departments</option>
+          <option value="manuals">Manuals</option>
+          <option value="figures">Figures</option>
+          <option value="dices">Dices</option>
         </select>
-        <input type="text">
-        <input type="text">
-        <button></button>
+        <input class="what" type="text" placeholder="What do you search for">
+        <input class="where" type="text" placeholder="Where do you search for">
+        <input class="submit" type="submit" value="Search">
       </form>
     </div>
   </header>
