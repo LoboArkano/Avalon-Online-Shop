@@ -5,56 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>ZATTIX</title>
+  <link rel="icon" href="images/dice-d20.svg">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <title>ÁVALON</title>
 </head>
 <body>
   <!-- HEADER -->
   <header class="header-container">
     <!-- NAVBAR -->
-    <nav class="nav-container">
-      <img src="" alt="Brand Logo">
-      <ul class="options">
-        <li class="nav-option">
-          <i class="nav-option_icon icon-red"></i>
-          <p class="nav-option_text"></p>
-        </li>
-        <li class="nav-option">
-          <i class="nav-option_icon icon-gray"></i>
-          <p class="nav-option_text"></p>
-        </li>
-        <li class="nav-option">
-          <i class="nav-option_icon icon-gray"></i>
-          <p class="nav-option_text"></p>
-        </li>
-        <li class="nav-option_red">
-          <p class="white"></p>
-        </li>
-      </ul>
-      <ul class="user">
-        <li class="user-option">
-          <i class="email"></i>
-        </li>
-        <li class="user-option">
-          <p></p>
-        </li>
-        <li class="user-option">
-          <img src="" alt="User's Pic">
-        </li>
-      </ul>
+    <nav class="nav-main-container black-bg">
+      <div class="nav-container">
+        <ul class="nav-left-side list-options">
+          <li class="item-logo">
+            <i class="fas fa-dice-d20 red item-option_logo"></i><h1 class="nav_shop-name white gotham-b">ÁVALON</h1>
+          </li>
+          <li class="item-option red helveticaN-l">
+            <p><i class="fas fa-home item-option_icon"></i>HOME</p>
+          </li>
+          <li class="item-option gray helveticaN-l">
+            <p><i class="fas fa-th item-option_icon"></i>COLLECTIONS</p>
+          </li>
+          <li class="item-option gray helveticaN-l">
+            <p><i class="fas fa-cart-arrow-down item-option_icon"></i>PURCHASE LIST</p>
+          </li>
+          <li class="item-ad red-bg helveticaN-l">
+            <p class="white">POST AN AD</p>
+          </li>
+        </ul>
+        <ul class="nav-right-side">
+          <li class="user-option gray">
+            <i class="fas fa-envelope user-option_icon"></i>
+          </li>
+          <li class="user-option white helveticaN-m">
+            <p>Jaskier</p>
+          </li>
+          <li class="user-option">
+            <img class="user-pic" src="https://www.alfabetajuega.com/wp-content/uploads/2019/07/jaskier-1-770x433.jpg" alt="User's Pic">
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- SEARCH -->
-    <div>
-      <h1 class="shop-name-search"></h1>
-      <h5 class="shop-message-search"></h5>
-      <form class="search" action="">
-        <select name="" id="">
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
+    <div class="search-container red-bg white">
+      <h1 class="search_shop-name gotham-b">ÁVALON</h1>
+      <h5 class="search_shop-slogan">Buying And Selling Couldn't be Simpler than this!</h5>
+      <form class="search-form" action="search.html">
+        <select class="category-select" name="dnd" id="category">
+          <option value="" disabled selected hidden>All Departments</option>
+          <option value="manuals">Manuals</option>
+          <option value="figures">Figures</option>
+          <option value="dices">Dices</option>
         </select>
-        <input type="text">
-        <input type="text">
-        <button></button>
+        <input class="what" type="text" placeholder="What do you search for">
+        <input class="where" type="text" placeholder="Where do you search for">
+        <input class="submit" type="submit" value="Search">
       </form>
     </div>
   </header>
