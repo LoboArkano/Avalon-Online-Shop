@@ -511,15 +511,17 @@ footer .footer-main-container {
   border: 1px solid #888;
   padding: 4px 15px;
   font-size: 13px;
+  text-align: center;
 }
 
 /* RESULT */
 .result-container {
   background: #f6f6f6;
   width: 100%;
+  padding-bottom: 50px;
 }
 
-.result-grid {
+.result-main-grid {
   display: grid;
   grid-template-columns: 265px 1fr;
   max-width: 1250px;
@@ -527,11 +529,11 @@ footer .footer-main-container {
 
 /* ASIDE */
 
-.result-grid .filter-container {
+.result-main-grid .filter-container {
   justify-self: end;
   padding-top: 10px;
   margin-right: 15px;
-  min-width: 210px;
+  min-width: 180px;
   font-size: 14px;
 }
 
@@ -540,16 +542,96 @@ footer .footer-main-container {
   justify-content: space-between;
 }
 
-input[type="checkbox"] {
-  padding: 50px;
-}
-
 .filter-title {
   padding-top: 18px;
   padding-bottom: 11px;
-  border-bottom: 1px solid rgb(139, 139, 139);
+  border-bottom: 1px solid rgb(192, 192, 192);
 }
 
-.filter-atributte {
+.filter-attribute {
   margin-top: 10px;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-rows: 45px repeat(6, auto);
+  min-width: 500px;
+  width: 100%;
+  border-left: 1px solid rgb(192, 192, 192);
+  border-right: 1px solid rgb(192, 192, 192);
+}
+
+.result-grid .result-stat {
+  align-self: center;
+  padding-left: 15px;
+}
+
+.result-grid .result {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  padding: 14px;
+  border-top: 1px solid rgb(192, 192, 192);
+}
+
+.result .result-img-cont {
+  position: relative;
+  max-width: 250px;
+}
+
+.result-img-cont .result-img {
+  height: 220px;
+  width: 75%;
+  margin-left: 15%;
+}
+
+.result-img-cont .img-selector {
+  right: 0;
+  bottom: 1px;
+}
+
+.result .result-info-container {
+  display: grid;
+  grid-template-rows: repeat(5, minmax(min-content, max-content));
+  padding: 10px 25px;
+}
+
+.result-info-container .result-name {
+  padding-bottom: 10px;
+}
+
+.result-info-container .result-price,
+.result-info-container .result-desc,
+.result-info-container .result-location {
+  padding-bottom: 20px;
+}
+
+.result-info-container .result-buy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.result-buy .result-buy-btn {
+  padding: 8px 15px;
+}
+
+.result-grid .pagination {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgb(192, 192, 192);
+}
+
+.pagination .pag-btn {
+  padding: 4px 7px;
+  margin-right: 4px;
+  font-size: 15px;
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.pagination .pag-points {
+  padding: 4px 4px 4px 0;
 }
