@@ -453,7 +453,7 @@ main .category-container {
   border-bottom: 1px solid rgb(184, 184, 184);
 }
 
-.category-title-container .fa-journal-whills {
+.category-title-container .category-icon {
   font-size: 32px;
   padding-right: 10px;
 }
@@ -498,6 +498,9 @@ main .category-container {
 
 .item .item-img {
   width: 100%;
+  min-height: 193px;
+  min-width: 148px;
+  max-height: 194px;
 }
 
 .item .item-info {
@@ -529,8 +532,20 @@ main .category-container {
   padding: 4px;
 }
 
+@media only screen and (max-width: 991px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .hidden-sm {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .hidden-xs {
     display: none;
   }
 }
