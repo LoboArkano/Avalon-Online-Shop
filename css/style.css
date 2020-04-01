@@ -641,6 +641,11 @@ footer .footer-main-container {
     padding: 20px;
     gap: 15px;
   }
+
+  .footer-group,
+  .footer-container .preferences-grid {
+    width: 246px;
+  }
 }
 
 /* RESULT */
