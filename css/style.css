@@ -275,7 +275,7 @@ a {
 .hot-ad-container {
   display: flex;
   flex-direction: column;
-  max-width: 750px;
+  max-width: 800px;
   padding: 13px 0 20px;
   margin: 0 auto;
 }
@@ -298,8 +298,13 @@ a {
   margin-right: 8px;
 }
 
+.hot-ad-info {
+  display: flex;
+}
+
 .hot-ad-img-cont {
   position: relative;
+  max-width: 358px;
 }
 
 .hot-ad-img {
@@ -371,6 +376,33 @@ a {
 
 .icon-text .fa-cart-arrow-down {
   padding-right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .hot-ad-container {
+    align-items: center;
+  }
+
+  .hot-ad-info {
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+  }
+
+  .hot-ad-img-cont {
+    max-width: 275px;
+  }
+
+  .hot-ad-img {
+    max-width: 275px;
+    min-width: 250px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .img-selector {
+    right: 0;
+  }
 }
 
 /* CATEGORY */
