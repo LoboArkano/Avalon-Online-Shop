@@ -656,7 +656,13 @@ footer .footer-main-container {
   max-width: 1250px;
 }
 
-/* ASIDE */
+@media only screen and (max-width: 767px) {
+  .result-main-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FILTER */
 
 .result-main-grid .filter-container {
   justify-self: end;
@@ -680,6 +686,14 @@ footer .footer-main-container {
 .filter-attribute {
   margin-top: 10px;
 }
+
+@media only screen and (max-width: 767px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+
+/* RESULTS */
 
 .result-grid {
   display: grid;
@@ -742,6 +756,8 @@ footer .footer-main-container {
 .result-buy .result-buy-btn {
   padding: 8px 15px;
 }
+
+/* PAGINATION */
 
 .result-grid .pagination {
   height: 100px;
