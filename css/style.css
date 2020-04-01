@@ -200,12 +200,10 @@ a {
   text-align: center;
   padding-top: 55px;
   padding-bottom: 10px;
-
-  /* background-image: url("../images/dice-d20.svg");
+  background-image: url("../images/dice-d20.svg");
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: left top 10px;
   background-size: 50% 50%;
-  filter: brightness(0) saturate(100%) invert(32%) sepia(9%) saturate(2509%) hue-rotate(301deg) brightness(95%) contrast(87%); */
 }
 
 .search-container .search_shop-name {
@@ -251,6 +249,25 @@ a {
 .search-form .what,
 .search-form .where {
   width: 270px;
+}
+
+@media only screen and (max-width: 767px) {
+  .search-form .category-select {
+    height: 31px;
+    padding: 5px 20px 5px 20px;
+  }
+
+  .search-form .what,
+  .search-form .where,
+  .search-form .submit {
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .search-form .what,
+  .search-form .where {
+    width: 215px;
+  }
 }
 
 /* HOT ADD */
