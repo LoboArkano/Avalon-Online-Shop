@@ -6,11 +6,11 @@ The objective of this project is to create a web page from images of the design.
 
 ### index.html
 
-![image](https://user-images.githubusercontent.com/33432289/78175616-6756cb80-7418-11ea-887b-3b61bc54f4b3.png)
+![image](https://user-images.githubusercontent.com/33432289/78183777-b6572d80-7425-11ea-8f90-7da8452cc902.png)
 
 ### search.html
 
-![image](https://user-images.githubusercontent.com/33432289/78175852-ccaabc80-7418-11ea-93d5-b4cebd471f8f.png)
+![image](https://user-images.githubusercontent.com/33432289/78183906-e1da1800-7425-11ea-8c01-edafc774c2ff.png)
 
 
 ## Live Demo
