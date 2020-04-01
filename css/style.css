@@ -514,6 +514,22 @@ footer .footer-main-container {
   text-align: center;
 }
 
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-top: 1px solid rgb(192, 192, 192);
+}
+
+.footer-bottom .copyright {
+  font-size: 13px;
+}
+
+.social-icon {
+  margin-right: 5px;
+}
+
 /* RESULT */
 .result-container {
   background: #f6f6f6;
