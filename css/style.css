@@ -217,9 +217,10 @@ a {
 }
 
 .search-container .search-form {
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   font-size: 3px;
-  display: block;
 }
 
 .search-form .category-select,
@@ -231,8 +232,14 @@ a {
   font-family: "HelveticaN-medium", Arial, Helvetica, sans-serif;
   color: #888;
   background-color: #fff;
-  padding: 5px 30px 5px 20px;
+  padding: 5px 30px 5px 15px;
   border: 0;
+}
+
+.search-form .submit:hover {
+  background-color: #d35266;
+  color: #fff;
+  border: 1px solid #383838;
 }
 
 .search-form .category-select {
@@ -254,6 +261,10 @@ a {
 @media only screen and (max-width: 767px) {
   .search-container {
     background-position: left -65px top 10px;
+  }
+
+  .search-container .search-form {
+    flex-wrap: wrap;
   }
 
   .search-form .category-select {
