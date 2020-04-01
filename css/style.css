@@ -547,6 +547,10 @@ footer .footer-main-container {
   font-size: 14px;
 }
 
+.footer-container .footer-group {
+  margin-left: 4px;
+}
+
 .footer-group .group-title {
   padding-bottom: 7px;
   border-bottom: 1px solid #d35266;
@@ -583,7 +587,7 @@ footer .footer-main-container {
   grid-row-gap: 15px;
   grid-column-gap: 30px;
   margin-top: 23px;
-  width: 230px;
+  width: 215px;
 }
 
 .preferences-grid .pref-option,
@@ -617,6 +621,22 @@ footer .footer-main-container {
 
 .social-icon {
   margin-right: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-main-container .footer-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 25px auto 50px;
+    row-gap: 18px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+  }
 }
 
 /* RESULT */
