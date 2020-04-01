@@ -4,18 +4,23 @@ The objective of this project is to create a web page from images of the design.
 
 ## Screenshot
 
-(Soon)
+### index.html
+
+![image](https://user-images.githubusercontent.com/33432289/78175616-6756cb80-7418-11ea-887b-3b61bc54f4b3.png)
+
+### search.html
+
+![image](https://user-images.githubusercontent.com/33432289/78175852-ccaabc80-7418-11ea-93d5-b4cebd471f8f.png)
 
 
 ## Live Demo
 
-(Soon)
+https://raw.githack.com/LoboArkano/HTML-CSS-capstone-project-Online-Shop/design/index.html
 
 ## Built With
 
 - HTML,
-- CSS,
-- Bootstrap 4
+- CSS
 
 ## Getting Started
 
