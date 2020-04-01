@@ -504,6 +504,7 @@ main .category-container {
 }
 
 .item .item-info {
+  height: calc(100% - 196px);
   padding: 5px 10px 10px 10px;
 }
 
