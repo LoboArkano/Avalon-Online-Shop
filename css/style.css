@@ -151,7 +151,7 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 12%;
-  min-width: 115px;
+  min-width: 135px;
   padding-right: 8px;
 }
 
@@ -163,6 +163,33 @@ a {
   height: 30px;
   width: 30px;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-container .nav-left-side {
+    width: 25%;
+    min-width: 140px;
+  }
+
+  .nav-container .nav-right-side {
+    max-width: 200px;
+    min-width: 175px;
+    width: 25%;
+  }
+
+  .nav-menu-sm {
+    font-size: 25px;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hidden-m {
+    display: none;
+  }
 }
 
 /* SEARCH */
