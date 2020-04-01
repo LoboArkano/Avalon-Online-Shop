@@ -757,6 +757,30 @@ footer .footer-main-container {
   padding: 8px 15px;
 }
 
+@media only screen and (max-width: 767px) {
+  .result-grid {
+    min-width: 320px;
+  }
+
+  .result-grid .result-stat {
+    display: flex;
+    align-items: center;
+  }
+
+  .result-menu-sm {
+    margin-right: 10px;
+    font-size: 25px;
+  }
+
+  .result-grid .result {
+    max-width: 500px;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    margin: 0 auto;
+  }
+}
+
 /* PAGINATION */
 
 .result-grid .pagination {
