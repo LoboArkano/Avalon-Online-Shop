@@ -6,16 +6,16 @@ The objective of this project is to create a web page from images of the design.
 
 ### index.html
 
-![image](https://user-images.githubusercontent.com/33432289/78183777-b6572d80-7425-11ea-8f90-7da8452cc902.png)
+![image](https://user-images.githubusercontent.com/33432289/78325849-1a691700-7536-11ea-8de5-8347844cd973.png)
 
 ### search.html
 
-![image](https://user-images.githubusercontent.com/33432289/78183906-e1da1800-7425-11ea-8c01-edafc774c2ff.png)
+![image](https://user-images.githubusercontent.com/33432289/78325886-34a2f500-7536-11ea-9c84-ff9f649e0bad.png)
 
 
 ## Live Demo
 
-https://raw.githack.com/LoboArkano/HTML-CSS-capstone-project-Online-Shop/design/index.html
+https://raw.githack.com/LoboArkano/HTML-CSS-capstone-project-Online-Shop/master/index.html
 
 ## Built With
 
