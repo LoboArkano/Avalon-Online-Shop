@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/dice-d20.svg">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <title>ÁVALON</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header-container">
+    <!-- NAVBAR -->
+    <nav class="nav-main-container d-just-center d-flex w-100 black-bg">
+      <div class="nav-container d-align-i-center d-just-between d-flex w-100">
+        <ul class="nav-left-side d-align-i-center d-just-between d-flex list-options">
+          <li class="item-logo d-align-i-center d-flex">
+            <i class="fas fa-dice-d20 red item-option_logo"></i><h2 class="nav_shop-name white gotham-b">ÁVALON</h2>
+          </li>
+          <li class="item-option fs-14 red helveticaN-l hidden-sm">
+            <p><i class="fas fa-home item-option_icon"></i>HOME</p>
+          </li>
+          <li class="item-option fs-14 gray helveticaN-l hidden-sm">
+            <p><i class="fas fa-th item-option_icon"></i>COLLECTIONS</p>
+          </li>
+          <li class="item-option fs-14 gray helveticaN-l hidden-sm">
+            <p><i class="fas fa-cart-arrow-down item-option_icon"></i>PURCHASE LIST</p>
+          </li>
+          <li class="item-ad fs-14 red-bg helveticaN-l hidden-sm">
+            <p class="white">POST AN AD</p>
+          </li>
+        </ul>
+        <ul class="nav-right-side d-align-i-center d-just-between d-flex">
+          <li class="user-option gray">
+            <i class="fas fa-envelope fs-12"></i>
+          </li>
+          <li class="user-option white helveticaN-m">
+            <p>Jaskier</p>
+          </li>
+          <li class="user-option">
+            <img class="user-pic" src="https://www.alfabetajuega.com/wp-content/uploads/2019/07/jaskier-1-770x433.jpg" alt="User's Pic">
+          </li>
+          <li class="hidden-m">
+            <i class="fas fa-bars red nav-menu-sm"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- SEARCH -->
+    <div class="search-container w-100 red-bg white">
+      <h1 class="search_shop-name gotham-b"><a class="white" href="index.html">ÁVALON</a></h1>
+      <h5 class="search_shop-slogan fs-15">Buying And Selling Couldn't be Simpler than this!</h5>
+      <form class="search-form margin-center d-just-center d-flex" action="search.html">
+        <select class="category-select" name="dnd" id="category">
+          <option value="" disabled selected hidden>All Departments</option>
+          <option value="manuals">Manuals</option>
+          <option value="figures">Figures</option>
+          <option value="dices">Dices</option>
+        </select>
+        <input class="what" type="text" placeholder="What do you search for">
+        <input class="where" type="text" placeholder="Where do you search for">
+        <input class="submit" type="submit" value="Search">
+      </form>
+    </div>
+  </header>
+  <main>
+    <!-- HOT ADS -->
+    <section class="hot-ad-container margin-center d-flex">
+      <h2 class="helveticaN-m gray hot-ad-title">HOT ADS</h2>
+      <div class="hot-ad-product d-align-i-center d-flex">
+        <div class="hot-add_arrow">
+          <i class="fas fa-chevron-left hot-ad-arrow red"></i>
+        </div>
+        <div class="hot-ad-info d-flex">
+          <div class="hot-ad-img-cont">
+            <img class="hot-ad-img" src="https://m.media-amazon.com/images/I/71BURLYgGhL._AC_UL320_ML3_.jpg" alt="Hot Ad">
+            <div class="img-selector d-flex black-bg">
+              <div class="img-selector-btn">
+                <i class="fas fa-chevron-left red"></i>
+              </div>
+              <div class="img-selector-btn">
+                <i class="fas fa-chevron-right red"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product-info helveticaN-m">
+            <h4 class="product-name red">Dungeons & Dragons Core Rulebooks Gift Set</h4>
+            <p class="product-desc fs-15 gray">The perfect gift for the Dungeons & Dragons fans in your life or as a treat for yourself.Need a gift for the holidays? A birthday present, a treat for yourself? This is it. Inside the D&D Core Rulebook Gift Set are special foil cover editions of the three Dungeons & Dragons core rulebooks--the Players Handbook, Dungeon Master's Guide, and Monster Manual--plus a Dungeon Master's screen, all collected in a stylish slipcase. </p>
+            <p class="seller-info helveticaN-l gray"><span class="black">By: </span>Wizards RPG Team </p>
+            <p class="seller-info helveticaN-l gray"><span class="black">Location: </span>San Francisco</p>
+            <div class="product-sale d-flex white">
+              <div class="product-sale-btn red-bg">99.50$</div>
+              <div class="product-sale-btn red-bg">
+                <p class="icon-text fs-12"><i class="fas fa-cart-arrow-down"></i>Purchase details</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hot-add_arrow">
+          <i class="fas fa-chevron-right hot-ad-arrow red"></i>
+        </div>
+      </div>
+    </section>
+    <section class="category-container w-100">
+      <!-- CATEGORY 1 -->
+      <div class="category d-flex">
+        <div class="category-title-container margin-center d-align-i-center d-flex w-100">
+          <i class="fas fa-journal-whills gray category-icon"></i>
+          <h3 class="category-title helveticaN-b gray">Manuals <span class="helveticaN-l fs-14 gray">(Player's Handbook, Monster Manual, Campaing Handbook.)</span></h3>
+        </div>
+        <div class="category-items-container d-just-between d-flex w-100">
+          <div class="category_arrow  d-align-i-center d-just-center d-flex border-t-gray">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <article class="item">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/81pViXqeVLL._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Dungeons & Dragons Player's..</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">30.50$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/81objtUow1L._AC_UY218_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Xanathar's Guide to Everything...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">32.00$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item hidden-xs">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/91YZWgwcPmL._AC_UY218_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Volo's Guide to Monsters...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">27.60$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item hidden-sm">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/71467GzvWjL._AC_UY218_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Dungeon Master's Screen...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">14.73$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item hidden-lg">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/91pGk4Gz5RL._AC_UY218_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Dungeons & Dragons Ghosts..</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">28.21$</div>
+              </div>
+            </div>
+          </article>
+          <div class="category_arrow  d-align-i-center d-just-center d-flex border-t-gray">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CATEGORY 2 -->
+      <div class="category d-flex">
+        <div class="category-title-container margin-center d-align-i-center d-flex w-100">
+          <i class="fas fa-walking gray category-icon"></i>
+          <h3 class="category-title helveticaN-b gray">Figures <span class="helveticaN-l fs-14 gray">(Miniatures, Monster Pack, Accessories.)</span></h3>
+        </div>
+        <div class="category-items-container d-just-between d-flex w-100">
+          <div class="category_arrow  d-align-i-center d-just-center d-flex border-t-gray">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <article class="item">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/71ayz9p00gL._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">WizKids 72779 D&D Icons...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">22.60$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/71T0VPot+7L._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">WizKids D&D Spell Effects:...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">38.34$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item hidden-xs">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/71+OWy5IEtL._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">WizKids D&D Icons of The...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">29.52$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item hidden-sm">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/51sXKUN8fWL._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">D&D Miniatures Game: 2 Players</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">24.47$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item hidden-lg">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/81Mh2pH4Z-L._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">D&D - Icons of the Realms: Tyranny</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">19.34$</div>
+              </div>
+            </div>
+          </article>
+          <div class="category_arrow  d-align-i-center d-just-center d-flex border-t-gray">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CATEGORY 3 -->
+      <div class="category d-flex">
+        <div class="category-title-container margin-center d-align-i-center d-flex w-100">
+          <i class="fas fa-dice gray category-icon"></i>
+          <h3 class="category-title helveticaN-b gray">Dices <span class="helveticaN-l fs-14 gray">(Dice Set, Storage Box.)</span></h3>
+        </div>
+        <div class="category-items-container d-just-between d-flex w-100">
+          <div class="category_arrow  d-align-i-center d-just-center d-flex border-t-gray">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <article class="item">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/71TYxswD9uL._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Q Workshop Pathfinder Iron...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">Germany</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">13.40$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/71Gsra1PhNL._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Q Workshop Metall Dwarven...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">Germany</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">39.91$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item hidden-xs">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/91Ex6z2M2BL._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Forge Dice Co. Storage Box...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">57.00$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item hidden-sm">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/71a2N1Aa5XL._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Q Workshop Dragon Dice...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">Germany</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">13.34$</div>
+              </div>
+            </div>
+          </article>
+          <article class="item hidden-lg">
+            <img class="item-img w-100" src="https://m.media-amazon.com/images/I/61ywihlr5ZL._AC_UL320_ML3_.jpg" alt="">
+            <div class="item-info white-bg">
+              <h4 class="fs-15 helveticaN-m black">Yardwe Dice Rolling Tray...</h4>
+              <p class="item-state fs-12 red">New</p>
+              <p class="item-location fs-12 helveticaN-l gray">From: <span class="black">San Francisco, U.S.</span></p>
+              <div class="item-buy d-align-i-center d-just-between d-flex">
+                <div class="item-add gray">+</div>
+                <div class="red">17.43$</div>
+              </div>
+            </div>
+          </article>
+          <div class="category_arrow  d-align-i-center d-just-center d-flex border-t-gray">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer-main-container w-100">
+    <div class="footer-container d-grid w-100">
+      <div class="shop-info">
+        <div class="shop-brand d-align-i-center d-just-center d-flex">
+          <i class="fas fa-dice-d20 gray item-option_logo"></i>
+          <p class="helveticaN-m gray">ÁVALON</p>
+        </div>
+        <p class="shop-text fs-14 helveticaN-l gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in metus eu eros commodo pharetra. Mauris vel tellus consectetur, fringilla leo a, consequat justo. Fusce sed commodo enim. Vestibulum posuere sapien eget dapibus iaculis. Pellentesque eleifend massa fringilla augue pretium tincidunt. Sed sagittis blandit lacus id sodales.</p>
+      </div>
+      <div class="footer-group">
+        <h5 class="group-title fs-15 helveticaN-m red">CATEGORIES</h5>
+        <ul class="group-grid-1 fs-12 d-grid helveticaN-l gray">
+          <li>Real State</li>
+          <li>Real State</li>
+          <li>Automotives</li>
+          <li>Automotives</li>
+          <li>Electronics</li>
+          <li>Electronics</li>
+          <li>Clothing</li>
+          <li>Clothing</li>
+          <li>Fashion</li>
+          <li>Fashion</li>
+          <li>Kids</li>
+          <li>Kids</li>
+          <li>Food & Drinks</li>
+          <li>Food & Drinks</li>
+        </ul>
+      </div>
+      <div class="footer-group">
+        <h5 class="group-title fs-15 helveticaN-m red">NAVIGATION</h5>
+        <ul class="group-grid-2 fs-12 d-grid helveticaN-l gray">
+          <li>Home</li>
+          <li>Sing In</li>
+          <li>Sing Up</li>
+          <li>Terms & Conditions</li>
+          <li>FAQ</li>
+          <li>Help</li>
+        </ul>
+      </div>
+      <div class="preferences-grid d-grid">
+        <p class="pref-option fs-14 gotham-b red">COUNTRY</p>
+        <div class="pref-atrib black">Mexico</div>
+        <p class="pref-option fs-14 gotham-b red">LANGUAGE</p>
+        <div class="pref-atrib black">English</div>
+        <p class="pref-option fs-14 gotham-b red">CURRENCY</p>
+        <div class="pref-atrib black">US Dollar</div>
+      </div>
+    </div>
+    <!-- SOCIAL ICONS -->
+    <div class="footer-bottom d-align-i-center d-just-between d-flex border-t-gray">
+      <p class="copyright helveticaN-l gray">Copyright © 2020 Avalon.com All Rights Reserved Designed by Mohammed Awad.</p>
+      <div class="gray">
+        <i class="social-icon fab fa-yahoo"></i>
+        <i class="social-icon fab fa-google-plus-g"></i>
+        <i class="social-icon fab fa-linkedin-in"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-facebook-f"></i>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
