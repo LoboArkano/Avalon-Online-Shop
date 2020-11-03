@@ -1,6 +1,5 @@
 # HTML-CSS-capstone-project-Online-Shop
-The objective of this project is to create a web page from images of the design.
-
+This web page demos a store which sells the themed gifts. 
 
 ## Screenshot
 
@@ -15,45 +14,45 @@ The objective of this project is to create a web page from images of the design.
 
 ## Live Demo
 
-https://raw.githack.com/LoboArkano/HTML-CSS-capstone-project-Online-Shop/master/index.html
+[Live link](https://avalon-online-shop.netlify.app/)
 
 ## Built With
 
-- HTML,
+- HTML
+
 - CSS
+
+## Future Features
+
+- Add carousel functionality to display items.
 
 ## Getting Started
 
-Simply download the zip and decompress. Once decompressed, double click or open index.html in any web browser. 
+Simply download the zip and decompress. Once decompressed, double click or open index.html in any web browser.
 
+## Prerequisites
 
-To get a local copy up and running follow these simple example steps.
+Any web browser will work, Mozilla, Safari, or Chrome.
 
-### Prerequisites
+## Setup
 
-Any web browser will do, Mozilla, Safari, or Chrome. 
+None needed to decompress and drag and drop into the browser.
 
-### Setup
+## Install
 
-None needed decompress and drag and drop onto browser. 
+None needed.
 
-### Install
-
-None needed. 
-
-### Usage
+## Usage
 
 Microverse Curriculum. 
 
-### Run tests
+## Run tests
 
 Text editor and web browser.
 
-### Deployment
+## Deployment
 
 Localhost. 
-
-
 
 ## Authors
 
@@ -67,7 +66,7 @@ Localhost.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/LoboArkano/Avalon-Online-Shop/issues).
 
 ## Show your support
 
